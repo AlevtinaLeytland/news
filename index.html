@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/img/bannerMainPage.jpg"
+        alt=""
+        srcset=""
+        width="100%"
+      />
+    </header>
+    <h1>World News</h1>
+    <div class="container">
+      <div class="sidebar">
+        <div class="newsBlock">
+          <div class="searchFields">
+            <h2>Find News:</h2>
+            <form class="searchNews">
+              <input
+                type="text"
+                class="search"
+                name="search"
+                placeholder="keyword"
+              />
+            </form>
+
+            <div>
+              <h3>Choose a category</h3>
+              <select name="" class="categories"></select>
+            </div>
+            <div>
+              <h3>Choose a country</h3>
+              <select name="" class="country"></select>
+            </div>
+          </div>
+          <div class="randomQuote">
+            <h2>Quote For You</h2>
+            <p class="textQuote"></p>
+            <p class="quoteAuthor"></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <ul class="newsList"></ul>
+      </div>
+    </div>
+    <footer>
+      <img src="./assets/img/footerImg.jpg" alt="" srcset="" width="100%" />
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
